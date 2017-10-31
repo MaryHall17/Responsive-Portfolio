@@ -1,0 +1,504 @@
+/*Common Styling*/
+body {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color:#dddddd;
+	width: 960px;
+}
+
+.header_background {
+	background-color: #ffffff;
+	padding: 10px 10px 5px 10px;
+	overflow: auto;
+	width: 1270px;
+}
+header {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	color: white;
+	font-size: 25px;
+	background-color: green;
+	float: left;
+	padding: 25px;
+	margin: 20px 220px 0px 30px;
+	clear: bottom;
+}
+	nav {
+		float: right;
+		margin: 20px 30px 0px 220px;
+		padding: 25px;
+	}
+
+a {
+	color:gray;
+
+}
+
+aside {
+	background-color:#ffffff;
+	position: absolute;
+	top: 120px;
+	right: 150px;
+	
+}
+
+.icons {
+	width: 50px;
+	height: 50px;
+	padding: 10px 5px 10px 25px;
+}
+
+#Connect {
+	text-align: center;
+	color: green;
+	font-size: 18px;
+	
+}
+
+
+footer {
+	clear: both;
+	background-color: #666666;
+	padding: 20px;
+	text-align: center;
+	width: 1270px;
+}
+
+/*About Page Styling*/
+
+#About {
+	background-color:#ffffff;
+	float: left;
+	clear: right;
+	margin: 10px 20px 25px 30px;
+	width: 650px;
+	padding: 20px;
+	overflow: auto;
+}
+
+#About_Heading {
+	color: green;
+	font-size: 18px;
+}
+
+#Profile_Shot {
+	float: right;
+	height: 30%;
+	width: 15%;
+	margin: 0 0 10px 10px;
+
+}
+
+#About_Content {
+	font-size: 16px;
+	line-height: auto;
+	margin: auto;
+	padding: 10px;
+}
+
+/*Contact Page Styling*/
+
+#Contact {
+	background-color:#ffffff;
+	float: left;
+	clear: right;
+	margin: 10px 20px 25px 30px;
+	width: 650px;
+	padding: 20px;
+	overflow: auto;
+}
+
+#Contact_Heading {
+	color: green;
+	font-size: 18px;
+}
+
+form {
+	margin: 10px;
+	line-height: 20px;
+}
+
+input {
+	margin: 10px;
+	line-height: 15px;
+}
+
+button {
+	margin: 10px;
+	background-color: green;
+	color: white;
+}
+
+
+#submit_hack {
+	color: #ffffff;
+}
+
+#message {
+	padding: 50px;
+}
+
+#Portfolio {
+	background-color:#ffffff;
+	float: left;
+	clear: right;
+	margin: 10px 20px 25px 30px;
+	width: 650px;
+	padding: 20px;
+	overflow: auto;
+}
+
+.portfolio_image_left {
+	height: 175px;
+	width: 175px;
+	padding: 20px;
+	background-color: #ffffff;
+	margin-bottom: 25px;
+	float: left;
+}
+
+.portfolio_image_right {
+	height: 175px;
+	width: 175px;
+	padding: 20px;
+	background-color: #ffffff;
+	margin-bottom: 25px;
+	float: right;
+}
+
+#captionKarokeApp {
+	text-align: center;
+	padding: 10px 20px;
+	width: 50px;
+	background-color: green;
+	color: white;
+	position: absolute;
+	top:320px;
+	right:100px; 
+	left:115px;
+}
+
+#captionRecipeFinderApp {
+	text-align: center;
+	padding: 10px 20px;
+	width: 50px;
+	background-color: green;
+	color: white;
+	position: absolute;
+	top: 305px;
+	left: 550px;
+	right: 180px;
+
+}
+
+#captionStudioRecordingApp {
+	text-align: center;
+	padding: 10px 20px;
+	width: 60px;
+	background-color: green;
+	color: white;
+	position: absolute;
+	top: 305px;
+	left: 325px;
+	right: 250px;
+}
+
+#captionTicTacToe {
+	text-align: center;
+	padding: 10px 20px;
+	width: 70px;
+	background-color: green;
+	color: white;
+	position: absolute;
+	top: 560px;
+	left: 100px;
+	right: 100px;
+}
+
+#captionStrategyGame {
+	text-align: center;
+	padding: 10px 20px;
+	width: 70px;
+	background-color: green;
+	color: white;
+	position: absolute;
+	top: 560px;
+	left: 540px;
+	right: 180px;
+}
+
+
+#Portfolio_Heading {
+	color: green;
+	font-size: 18px;
+}
+
+/*Media Queries*/ 
+
+@media screen and (max-width: 980px) {
+	body {
+		width: 960px;
+	}
+	nav {
+		float: right;
+		margin: 20px 30px 0px 50px;
+		padding: 10px;
+	}
+	.header-background {
+		width: 960px;
+	}
+
+	aside {
+	position: absolute;
+	right: 50px;
+	}
+	
+	/*About Page */
+	#About {
+		width: 500px;
+	}
+
+	/*Portfolio*/
+	
+	#Portfolio {
+		width: 500px;
+	}
+
+	#captionTicTacToe {
+		top: 800px;
+		left: 100px;
+		right: 100px;
+	}
+
+	#captionStudioRecordingApp {
+		top: 545px;
+		left: 100px;
+		right: 100px;
+
+	}
+
+	#captionRecipeFinderApp {
+		top: 305px;
+		left: 400px;
+		right: 200px;
+	}
+
+	#captionStrategyGame {
+		top: 560px;
+		left: 390px;
+		right: 180px;
+
+	}
+
+	/*Contact*/
+
+	#Contact {
+		width: 500px;
+	}
+
+}
+
+
+@media screen and (max-width: 768px) {
+	body {
+		width: 720px;
+	}
+
+	nav {
+		position: absolute;
+		top: 20px;
+		right: 275px;
+	}
+	.header-background {
+		width: 720px;
+		margin: 20px 0px 0px 30px;
+	}
+
+	aside {
+		position: absolute;
+		top: 430px;
+		right: 10px;
+		width: 720px;
+	}
+
+	.icons {
+		height: 50px;
+		width: 50px;
+	}
+
+	#Connect {
+		text-align: left;
+	}
+
+	footer {
+		position: absolute;
+		top: 575px;
+		width: 720px;
+	}
+
+	/*About Page*/
+	#About {
+		width: 720px;
+	}
+
+	/*Portfolio*/
+	#Portfolio {
+		width: 740px;
+		height: 600px;
+		padding-bottom: 0px;
+	}
+
+	#Portfolio_Aside {
+		position:absolute;
+		top: 760px;
+
+	}
+
+	#Portfolio_Footer {
+		position:absolute;
+		top: 870px;
+		width: 1300px;
+	}
+
+	#captionStudioRecordingApp {
+		position:absolute;
+		top:310px;
+		left: 325px;
+	}
+
+	
+	#captionRecipeFinderApp {
+		position:absolute;
+		left: 635px;
+		right: 200px;
+	}
+
+	#captionStrategyGame {
+		position: absolute;
+		left: 630px;
+		right: 200px;
+	}
+
+	#captionTicTacToe {
+		position:absolute;
+		top:560px;
+	}
+
+
+	/*Contact*/
+	#Contact {
+		width:720px;
+		height: 256px;
+	}
+
+	
+}
+
+@media screen and (max-width: 640px) {
+	body {
+		width: 640px;
+	}
+
+	nav {
+		position: absolute;
+		width: 580px;
+		top: 80px;
+		right: 30px;
+		left: 10px;
+		background-color: white;
+	}
+
+	.header_background {
+		position: static;
+		width: 640px;
+		padding-top: 0px;
+	}
+
+	header {
+		width: 100%;
+		height: 100%;
+	}
+
+	#About {
+		width: 640px;
+		position: absolute;
+		top: 130px;
+	}
+
+	aside {
+		position: absolute;
+		top: 415px;
+		right: 0px;
+		left: 50px;
+		width: 640px;
+	}
+	#Connect {
+		text-align: left;
+	}
+
+	footer {
+		position: absolute;
+		top: 575px;
+		width: 640px;
+	}
+
+	/*Portfolio*/
+		#Portfolio {
+			position:absolute;
+			top: 130px;
+		}
+
+		#captionKarokeApp {
+			position:absolute;
+			top: 200px;
+			left: 85px;
+		}
+
+		#captionStudioRecordingApp {
+			position:absolute;
+			top: 186px;
+			left: 300px;
+		}
+
+		#captionRecipeFinderApp {
+			position:absolute;
+			top:185px;
+			left:600px;
+			right:200px;
+		}
+
+		#captionTicTacToe {
+			position:absolute;
+			top:440px;
+			left: 80px;
+		}
+
+		#captionStrategyGame {
+			position:absolute;
+			top:440px;
+			left:600px;
+		}
+
+		#Portfolio_Aside {
+			position:absolute;
+			top:770px;
+		}
+
+		#Portfolio_Footer {
+			position:absolute;
+			top:880px;
+		}
+
+
+
+	/*Contact*/
+
+	#Contact {
+		width: 640px;
+		position: absolute;
+		top: 130px;
+	}
+
+
+}
+
+
+
